@@ -48,28 +48,7 @@ function showResult(BMI) {
 			return data;
 	});
 
-	switch (rank.name) {
-		case "Maigreur":
-            result.style.color = rank.color;
-            break;
-        case "Bonne santé":
-            result.style.color = rank.color;
-            break;
-        case "Surpoids":
-            result.style.color = rank.color;
-            break;
-        case "Obésité modérée":
-            result.style.color = rank.color;
-            break;
-        case "Obésité sévère":
-            result.style.color = rank.color;
-            break;
-        case "Obésité morbide":
-            result.style.color = rank.color;
-            break;
-	}
-
-
-	result.textContent = rank.name;
+	displayBMI.style.color = rank.color;
 	displayBMI.textContent = BMI;
+	result.textContent = `Result : ${rank.name}`;
 }
