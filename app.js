@@ -1,12 +1,12 @@
 // IMC = weight in kg / height² in m
 
 const BMIData = [
-  { name: "Maigreur", color: "midnightblue", range: [0, 18.5] },
-  { name: "Bonne santé", color: "green", range: [18.5, 25] },
-  { name: "Surpoids", color: "lightcoral", range: [25, 30] },
-  { name: "Obésité modérée", color: "orange", range: [30, 35] },
-  { name: "Obésité sévère", color: "crimson", range: [35, 40] },
-  { name: "Obésité morbide", color: "purple", range: 40 },
+  { name: "Thinness", color: "midnightblue", range: [0, 18.5] },
+  { name: "Good health", color: "green", range: [18.5, 25] },
+  { name: "Overweight", color: "lightcoral", range: [25, 30] },
+  { name: "Moderate obesity", color: "orange", range: [30, 35] },
+  { name: "Severe obesity", color: "crimson", range: [35, 40] },
+  { name: "Morbid obesity", color: "purple", range: 40 },
 ];
 
 const form = document.querySelector("form");
