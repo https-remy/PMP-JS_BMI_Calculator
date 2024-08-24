@@ -1,9 +1,9 @@
 *,
 ::before,
 ::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 body {
@@ -20,7 +20,7 @@ body {
 	padding: 25px;
 	margin: 0 auto;
 	border-radius: 5px;
-	box-shadow: 0 4px 5px rgba(0,0,0,0.3);
+	box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
 }
 
 h1 {
@@ -52,7 +52,7 @@ h1 span {
 	padding: 15px;
 	border: none;
 	border-bottom: 1px solid #333333;
-	box-shadow: 0 5px 5px rgba(0,0,0,0.3);
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
 	border-radius: 5px;
 }
 
@@ -60,7 +60,7 @@ h1 span {
 	outline: 1px solid #222222be;
 }
 
-.input-group:nth-child(2) {
+.checkbox-group:nth-child(2) {
 	margin-left: 20px;
 }
 
@@ -76,11 +76,11 @@ form button {
 	color: #333;
 	cursor: pointer;
 	background: #fabe33;
-	box-shadow: 0 2px 3px rgba(0,0,0,0.5);
+	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
 }
 
 form button:hover {
-    background: #f2b527;
+	background: #f2b527;
 }
 
 .info {
@@ -93,7 +93,7 @@ form button:hover {
 	font-weight: bolder;
 }
 
-.result{
+.result {
 	font-family: Raleway, sans-serif;
 	font-size: 20px;
 }
@@ -108,18 +108,18 @@ form button:hover {
 		align-items: center;
 	}
 
-	.input-group:nth-child(2) {
+	.checkbox-group:nth-child(2) {
 		margin-top: 30px;
 		margin-left: 0;
 	}
 }
 
 @media (max-width: 500px) {
-	.input-group {
+	.checkbox-group {
 		width: 100%;
 	}
 
-	.input-group input {
+	.checkbox-group input {
 		width: 100%;
 		min-width: auto;
 	}
